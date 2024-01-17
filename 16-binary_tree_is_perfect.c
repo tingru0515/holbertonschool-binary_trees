@@ -61,7 +61,7 @@ int is_perfect_recursive(const binary_tree_t *tree, size_t leaf_depth, size_t le
 * @tree: a pointer to the root node of the tree to check
 * Return: 0 or 1
 */
-int binary_tree_is_prefect(const binary_tree_t *tree)
+int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
