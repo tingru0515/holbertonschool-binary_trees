@@ -32,7 +32,7 @@ size_t depth(const binary_tree_t *tree)
 * @tree: a pointer to the root node of the tree to find a leaf in
 * Return: a pointer to the first encountered leaf
 */
-const binary_tree_t *get_lesf(const binary_tree_t *tree)
+const binary_tree_t *get_leaf(const binary_tree_t *tree)
 {
 	if (is_leaf(tree) == 1)
 		return (tree);
